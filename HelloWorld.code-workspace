@@ -19,5 +19,7 @@
 			"path": ".azureDevOps"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"powershell.codeFormatting.addWhitespaceAroundPipe": true
+	}
 }

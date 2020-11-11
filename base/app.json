@@ -1,7 +1,7 @@
 {
-    "id":  "00000000-0000-0000-0000-000000000003",
-    "name":  "Default Base App Name",
-    "publisher":  "Default Publisher",
+    "id":  "d04fd755-223e-47fa-805e-15c130c582a0",
+    "name":  "Bison Base App Name",
+    "publisher":  "Bison",
     "brief":  "",
     "description":  "",
     "version":  "2.0.0.0",
@@ -10,8 +10,19 @@
     "help":  "",
     "url":  "",
     "logo":  "",
-    "dependencies":  [
-
+        "dependencies": [
+            {
+              "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+              "publisher": "Microsoft",
+              "name": "System Application",
+              "version": "1.0.0.0"
+            },
+            {
+              "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+              "publisher": "Microsoft",
+              "name": "Base Application",
+              "version": "16.0.0.0"
+            }
                      ],
     "screenshots":  [
 
@@ -25,5 +36,5 @@
                      }
                  ],
     "showMyCode":  true,
-    "runtime":  "4.0"
+    "runtime": "5.3"
 }

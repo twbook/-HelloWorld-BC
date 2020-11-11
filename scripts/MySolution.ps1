@@ -8,12 +8,10 @@ $replaceObjectIds = @{
     "50149" = 80149
 }
 $replaceValues = @{
-    "00000000-0000-0000-0000-000000000001" = [Guid]::NewGuid().ToString()
-    "00000000-0000-0000-0000-000000000002" = [Guid]::NewGuid().ToString()
-    "00000000-0000-0000-0000-000000000003" = [Guid]::NewGuid().ToString()
-    "HelloWorld" = "MyApp"
-    "Default Publisher" = "My Name"
-    "Default App Name" = "My App"
+    "d04fd755-223e-47fa-805e-15c130c582a0" = [Guid]::NewGuid().ToString()
+    "HelloWorld" = "Default Base App Name"
+    "Default Publisher" = "Default Publisher"
+    "Default App Name" = "Default Base App Name"
     "Default Base App Name" = "My Base App"
     "Default Test App Name" = "My Test App"
     "2.0.0.0" = "1.0.0.0"
