@@ -26,6 +26,8 @@ if ("$AgentName" -ne "Hosted Agent" -and "$AgentName" -notlike "Azure Pipelines*
         Remove-BcContainer -containerName $containerName
         Flush-ContainerHelperCache -KeepDays 2
         
+        Write-Host "Afert Flush"
+        
         Remove-Module BcContainerHelper
         $path = Join-Path $ENV:Temp $containerName
         if (Test-Path $path) {
